@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Тебя слышат — бот, который помнит и слушает</title>
+  <meta name="description" content="Telegram-бот без коучинга и диагнозов. Вечерний чек-ин, память о тебе и один точный вопрос." />
+  <meta property="og:title" content="Тебя слышат" />
+  <meta property="og:description" content="Не терапевт. Не коуч. Просто кто-то, кто помнит и слушает." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="header">
+    <a class="logo" href="#">Тебя слышат</a>
+    <nav class="nav">
+      <a href="#how">Как это</a>
+      <a href="#modes">Режимы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn-sm" href="https://t.me/StarShops7_bot" target="_blank" rel="noopener">Открыть в Telegram</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Telegram-бот</p>
+      <h1>Не терапевт.<br /><em>Не коуч.</em><br />Просто кто-то, кто помнит.</h1>
+      <p class="lead">
+        Вечерний чек-ин, короткая память о тебе и один точный вопрос —
+        без морали, списков привычек и «ты справишься».
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://t.me/StarShops7_bot" target="_blank" rel="noopener">
+          Начать в Telegram
+        </a>
+        <a class="btn btn-ghost" href="#how">Как работает</a>
+      </div>
+      <p class="fine">Бесплатно · без регистрации на сайте · только Telegram</p>
+    </section>
+
+    <section class="strip" aria-label="Коротко">
+      <div class="strip-item">
+        <span class="num">01</span>
+        <p>Слушает, а не продаёт мотивацию</p>
+      </div>
+      <div class="strip-item">
+        <span class="num">02</span>
+        <p>Помнит, что ты писал вчера</p>
+      </div>
+      <div class="strip-item">
+        <span class="num">03</span>
+        <p>Вечерний ритуал закрытия дня</p>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <h2>Как это устроено</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Онбординг за минуту</h3>
+          <p>Имя, что сейчас давит, часовой пояс и время вечера. Можно пропускать шаги.</p>
+        </article>
+        <article class="card">
+          <h3>Пиши как есть</h3>
+          <p>В любой момент — без кнопок. Бот опирается на то, что уже знает о тебе.</p>
+        </article>
+        <article class="card">
+          <h3>Вечерний чек-ин</h3>
+          <p>В выбранный час: что было тяжёлым, где справился, что отпустить.</p>
+        </article>
+        <article class="card">
+          <h3>Без диагнозов</h3>
+          <p>Не ставит ярлыки, не обещает «исцелить» и не хвалит за всё подряд.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="modes" class="section section-alt">
+      <h2>Режимы</h2>
+      <ul class="modes">
+        <li>
+          <strong>Выговориться</strong>
+          <span>Просто текст. Можно без советов — только отражение и один вопрос.</span>
+        </li>
+        <li>
+          <strong>Один шаг</strong>
+          <span>Не план на жизнь. Одно действие на 10 минут.</span>
+        </li>
+        <li>
+          <strong>Мне плохо</strong>
+          <span>Сначала заземление, потом разговор. Без лекций.</span>
+        </li>
+        <li>
+          <strong>Вечерний чек-ин</strong>
+          <span>Три коротких ответа — и день закрыт.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section quote-section">
+      <blockquote>
+        <p>«Люди устали от мягкого ИИ, который со всем согласен. Нужен спокойный и прямой тон.»</p>
+      </blockquote>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>Частые вопросы</h2>
+      <div class="faq">
+        <details open>
+          <summary>Это психотерапия?</summary>
+          <p>Нет. Это ритуал и слушающий собеседник в Telegram. При острой боли лучше к живому специалисту.</p>
+        </details>
+        <details>
+          <summary>Нужно ли платить?</summary>
+          <p>Сейчас бот бесплатный. Позже может появиться подписка за длинную память и расширенные режимы — базовый чек-ин останется доступным.</p>
+        </details>
+        <details>
+          <summary>Что бот запоминает?</summary>
+          <p>Имя, то, что ты сам написал о давлении, заметки из переписки и вечерние чек-ины. Данные нужны, чтобы не начинать каждый раз с нуля.</p>
+        </details>
+        <details>
+          <summary>Можно сменить время и пояс?</summary>
+          <p>Да. В настройках или командами: <code>время 21:30</code>, <code>пояс москва</code> / <code>пояс европа</code>.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Открой бота и напиши первое сообщение</h2>
+      <p>Хватит одной фразы. Остальное — по ходу.</p>
+      <a class="btn btn-primary btn-lg" href="https://t.me/StarShops7_bot" target="_blank" rel="noopener">
+        t.me/StarShops7_bot
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Тебя слышат · не медицинский сервис</p>
+    <p class="footer-note">Если тяжело и небезопасно — обратись к близким или в экстренные службы своего региона.</p>
+  </footer>
+</body>
+</html>
